@@ -24,7 +24,9 @@
 vuex来进行数据管理，管理每个商家对象中保留的食物name和食物num。
 > 6. 使用计算属性来检测多个因素对购物车的显示功能进行控制，比如需要用户添加食物和用户点击购物车才会显示购物车列表
 
-使用到的其他库：阿里图标库+解决移动端延迟300ms+淘宝默认样式reset.css+stylus预处理器 + swiper.js + better-scroll
+- 使用到的其他库：阿里图标库+解决移动端延迟300ms+淘宝默认样式reset.css+stylus预处理器 + swiper.js + better-scroll
+- 优化：必要的化可以用keep-alive对详情页进行缓冲，也可以对其他，比如详情页进行组件异步加载（异步加载同时，可以进行webpackchunk进行js命名，减少HTTP请求）
+
 
 
 ---
